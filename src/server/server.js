@@ -37,7 +37,7 @@ server.route({
     const url = request.payload.url
     const options = {
       path: path.join(__dirname, '../../public/temp'),
-      audioOnly: true
+      // audioOnly: true
     }
 
     youtube.download(url, options)
